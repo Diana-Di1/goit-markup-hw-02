@@ -6,27 +6,31 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 /*TODO-------------------HEADER----------------------*/
 
 .header-logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 117%;
-  color: var(--main-text-color);
-}
-
-.header-logo-web {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--second-color);
+}
+
+.header-logo-web {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
 }
 
 a {
@@ -45,6 +49,7 @@ ul {
 }
 
 .header-menu-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -52,6 +57,13 @@ ul {
   color: var(--main-text-color);
 }
 
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-menu-link:focus {
+  color: #404bbf;
+}
 /*TODO-------------------HERO----------------------*/
 
 .hero {
@@ -130,17 +142,17 @@ ul {
 
 /*TODO-------------------FOOTER----------------------*/
 
-.footer-p {
+.footer-page {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  background: var(--second-color);
+  background: var(--main-text-color);
 }
 
 /**PRTFOLIO*/
 
-.menu-portf-items {
+.menu-portf-item {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -149,7 +161,7 @@ ul {
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   color: var(--second-color);
 }
 
