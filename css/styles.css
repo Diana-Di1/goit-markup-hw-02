@@ -7,6 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 /*TODO-------------------HEADER----------------------*/
@@ -15,11 +16,20 @@ body {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: var(--second-color);
+  color: var(--main-text-color);
+  font-weight: 500;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .header-logo-web {
@@ -33,6 +43,10 @@ body {
   color: var(--main-text-color);
 }
 
+.header-navigation {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -42,10 +56,15 @@ ul {
 }
 
 .header-contacts {
+  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 150%;
-  -spacing: 0.02em;
-  color: var(--main-text-color);
+  color: #434455;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: #404bbf;
 }
 
 .header-menu-link {
@@ -57,12 +76,18 @@ ul {
   color: var(--main-text-color);
 }
 
-.header-menu-link:hover {
+.header-logo:hover,
+.header-logo:focus {
   color: #404bbf;
 }
 
+.header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 /*TODO-------------------HERO----------------------*/
 
@@ -71,6 +96,7 @@ ul {
 }
 
 .hero-title {
+  letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -79,14 +105,24 @@ ul {
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
-  display: flex;
-  align-items: center;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--title-color);
-  background-color: var(--second-color);
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.list-section-two {
+  list-style: none;
 }
 
 .benefits {
@@ -101,14 +137,13 @@ ul {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: #434455;
 }
 
 .description {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-text-color);
@@ -118,7 +153,6 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-text-color);
@@ -128,7 +162,6 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  -align: center;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
@@ -137,20 +170,32 @@ ul {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: #434455;
 }
 
+.team-main {
+  background-color: #f4f4fd;
+  background-color: #ffffff;
+}
 /*TODO-------------------FOOTER----------------------*/
+
+.footer {
+  background-color: #2e2f42;
+}
 
 .footer-page {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  color: #f4f4fd;
   background: var(--main-text-color);
 }
 
-/**PRTFOLIO*/
+/**----------------------PRTFOLIO--------------------------*/
+
+.body {
+  color: #434455;
+}
 
 .menu-portf-item {
   font-family: "Roboto";
@@ -168,14 +213,54 @@ ul {
 .portf-pics-sect1 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: #2e2f42;
 }
 
 .portf-sect1-p {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: #434455;
+}
+
+.header-menu-item {
+  list-style: none;
+}
+
+.header-logo-port {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-weight: 500;
+}
+
+.header-logo-web-p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.section-portf {
+  list-style: none;
+}
+
+.portf-pics1 {
+  list-style: none;
+  text-decoration: none;
+}
+
+.block-photos1 {
+  text-decoration: none;
 }
