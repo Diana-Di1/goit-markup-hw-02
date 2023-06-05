@@ -4,9 +4,13 @@
   --second-color: #4d5ae5;
 }
 
-body {
+:body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
+}
+
+.body-class {
   background-color: #ffffff;
 }
 
@@ -16,11 +20,11 @@ body {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-text-color);
+  color: #4d5ae5;
   font-weight: 500;
 }
 
@@ -40,7 +44,7 @@ body {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-text-color);
+  color: #2e2f42;
 }
 
 .header-navigation {
@@ -71,9 +75,9 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: #2e2f42;
 }
 
 .header-logo:hover,
@@ -99,8 +103,7 @@ ul {
   letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
-  text-align: center;
+  line-height: 1.7;
   color: var(--title-color);
 }
 
@@ -202,10 +205,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
 }
@@ -246,7 +246,7 @@ ul {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
