@@ -99,10 +99,13 @@ ul {
 .header {
   font-weight: 800;
 }
+
 /*TODO-------------------HERO----------------------*/
 
 .hero {
   background: var(--main-text-color);
+  line-height: 1.07;
+  text-align: center;
 }
 
 .hero-title {
@@ -119,7 +122,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: #ffffff;
   background-color: #f4f4fd;
   cursor: pointer;
 }
@@ -164,7 +167,9 @@ ul {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--main-text-color);
+  background-color: #ffffff;
 }
 
 .team-name {
@@ -200,10 +205,15 @@ ul {
   background: var(--main-text-color);
 }
 
+.section4 {
+  background-color: #f4f4fd;
+}
+
 /**----------------------PRTFOLIO--------------------------*/
 
 .body {
   color: #434455;
+  font-family: "Roboto", sans-serif;
 }
 
 .menu-portf-item {
