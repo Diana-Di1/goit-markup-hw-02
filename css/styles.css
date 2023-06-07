@@ -122,8 +122,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
   cursor: pointer;
 }
 
@@ -190,7 +190,6 @@ ul {
 }
 
 .team-main {
-  background-color: #f4f4fd;
   background-color: #ffffff;
 }
 /*TODO-------------------FOOTER----------------------*/
@@ -209,6 +208,17 @@ ul {
 
 .section-4 {
   background-color: #f4f4fd;
+}
+
+.footer-logo-web {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 /**----------------------PRTFOLIO--------------------------*/
