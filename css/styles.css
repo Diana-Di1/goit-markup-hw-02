@@ -122,8 +122,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: #ffffff;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
 
@@ -162,6 +162,9 @@ ul {
   color: var(--main-text-color);
 }
 
+.team-item {
+  background-color: #ffffff;
+}
 .our-team {
   font-weight: 700;
   font-size: 36px;
@@ -206,7 +209,7 @@ ul {
   background: var(--main-text-color);
 }
 
-.section-4 {
+.section-four {
   background-color: #f4f4fd;
 }
 
@@ -218,7 +221,7 @@ ul {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #2e2f42;
 }
 
 /**----------------------PRTFOLIO--------------------------*/
@@ -238,7 +241,7 @@ ul {
   color: var(--second-color);
 }
 
-.portf-pics-sect1 {
+.portf-pics-section {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
