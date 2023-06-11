@@ -48,6 +48,17 @@
   color: #2e2f42;
 }
 
+.header-logo-webhead {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+
 .header-navigation {
   list-style: none;
 }
@@ -117,6 +128,17 @@ ul {
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-btn-firstsect {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
