@@ -133,8 +133,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--second-color);
+  background-color: #f4f4fd;
   cursor: pointer;
 }
 
@@ -147,6 +147,11 @@ ul {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+}
+
+.hero-btn-firstsect:hover,
+.hero-btn-firstsect:focus {
+  background-color: #404bbf;
 }
 
 .hero-btn:hover,
